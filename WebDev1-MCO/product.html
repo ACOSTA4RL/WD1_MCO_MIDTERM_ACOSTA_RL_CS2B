@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yu-Gi-Oh! Deck</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="title">Yu-Gi-Oh! Deck</h1>
+    </header>
+
+    <nav>
+        <a></a>
+        <a href="index.html#intro">Resume</a>
+        <a href="index.html#skills">Skills</a>
+        <a href="index.html#activities">Activities</a>
+        <a href="product.html#features">Feature</a>
+        <a href="product.html#shop">Shop</a>
+    </nav>
+
+    <h2>Discover the World of Yu-Gi-Oh! Cards</h2><br>
+    <img class="hero" src="src/img/best-starter-deck-in-yugioh-master-duel-1024x576.jpg">
+
+
+    <section id="about">
+        <h2>About Yu-Gi-Oh!</h2>
+        <p>The Yu-Gi-Oh! Trading Card Game is one of the most popular collectible card games worldwide. It combines strategy, skill, and creativity, allowing duelists to build their own decks and compete in exciting battles.</p>
+    </section>
+
+    <section id="features">
+        <h2>Features</h2>
+        <div class="features">
+            <div class="feature-box">
+                <h3>Beginner-Friendly Cards</h3>
+                <p>Easy-to-use cards that help new duelists learn the game mechanics.<br> Examples: Dark Magician, Blue-Eyes White Dragon, Celtic Guardian.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Popular Iconic Cards</h3>
+                <p>Fan-favorites that are loved by players and collectors alike.<br> Examples: Red-Eyes Black Dragon, Kuriboh, Dark Magician Girl, Exodia.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Hot Legendary Cards</h3>
+                <p>Powerful and rare cards, highly sought after by collectors.<br> Examples: Obelisk the Tormentor, Slifer the Sky Dragon, Winged Dragon of Ra.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Collectible & Competitive</h3>
+                <p>Cards can be collected, traded, or used in tournaments. New sets are released regularly to keep the game exciting.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Local Products -->
+    <section id="shop">
+        <h2>Local Products</h2>
+        <table border="1" cellspacing="10" cellpadding="10" style="margin:auto; text-align:center;">
+            <tr>
+                <td>
+                    <img src="src/img/Dark Magician.jpg" alt="Dark Magician" width="150"><br>
+                    <h4>Dark Magician</h4>
+                    <p><b>Price: ₱150</b></p>
+                    <button style="background-color: lightgreen;" onclick="addToCart()">Add to Cart</button>
+                    <button style="background-color: coral;" onclick="removeToCart()">Remove to Cart</button>
+                </td>
+                <td>
+                    <img src="src/img/Blue-Eyes White Dragon.jpg" alt="Blue-Eyes White Dragon" width="150"><br>
+                    <h4>Blue-Eyes White Dragon</h4>
+                    <p><b>Price: ₱200</b></p>
+                    <button style="background-color: lightgreen;" onclick="addToCart()">Add to Cart</button>
+                    <button style="background-color: coral;" onclick="removeToCart()">Remove to Cart</button>
+                </td>
+                <td>
+                    <img src="src/img/Summoned Skull.jpg" alt="Summoned Skull" width="150"><br>
+                    <h4>Summoned Skull</h4>
+                    <p><b>Price: ₱120</b></p>
+                    <button style="background-color: lightgreen;" onclick="addToCart()">Add to Cart</button>
+                    <button style="background-color: coral;" onclick="removeToCart()">Remove to Cart</button>
+                </td>
+                <td>
+                    <img src="src/img/Celtic Guardian.jpg" alt="Celtic Guardian" width="150"><br>
+                    <h4>Celtic Guardian</h4>
+                    <p><b>Price: ₱100</b></p>
+                    <button style="background-color: lightgreen;" onclick="addToCart()">Add to Cart</button>
+                    <button style="background-color: coral;" onclick="removeToCart()">Remove to Cart</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="src/img/Red-Eyes Black Dragon.jpg" alt="Red-Eyes Black Dragon" width="150"><br>
+                    <h4>Red-Eyes Black Dragon</h4>
+                    <p><b>Price: ₱180</b></p>
+                    <button style="background-color: lightgreen;" onclick="addToCart()">Add to Cart</button>
+                    <button style="background-color: coral;" onclick="removeToCart()">Remove to Cart</button>
+                </td>
+                <td>
+                    <img src="src/img/Kuriboh.jpg" alt="Kuriboh" width="150"><br>
+                    <h4>Kuriboh</h4>
+                    <p><b>Price:₱90</b></p>
+                    <button style="background-color: lightgreen;" onclick="addToCart()">Add to Cart</button>
+                    <button style="background-color: coral;" onclick="removeToCart()">Remove to Cart</button>
+                </td>
+                <td>
+                    <img src="src/img/Exodia.jpg" alt="Exodia" width="150"><br>
+                    <h4>Exodia the Forbidden One</h4>
+                    <p><b>Price: ₱250</b></p>
+                    <button style="background-color: lightgreen;" onclick="addToCart()">Add to Cart</button>
+                    <button style="background-color: coral;" onclick="removeToCart()">Remove to Cart</button>
+                </td>
+                <td>
+                    <img src="src/img/Dark Magician Girl.jpg" alt="Dark Magician Girl" width="150"><br>
+                    <h4>Dark Magician Girl</h4>
+                    <p><b>Price: ₱200</b></p>
+                    <button style="background-color: lightgreen;" onclick="addToCart()">Add to Cart</button>
+                    <button style="background-color: coral;" onclick="removeToCart()">Remove to Cart</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="src/img/Obelisk the Tormentor.jpg" alt="Obelisk the Tormentor" width="150"><br>
+                    <h4>Obelisk the Tormentor</h4>
+                    <p><b>Price: ₱300</b></p>
+                    <button style="background-color: lightgreen;" onclick="addToCart()">Add to Cart</button>
+                    <button style="background-color: coral;" onclick="removeToCart()">Remove to Cart</button>
+                </td>
+                <td>
+                    <img src="src/img/Slifer the Sky Dragon.jpg" alt="Slifer the Sky Dragon" width="150"><br>
+                    <h4>Slifer the Sky Dragon</h4>
+                    <p><b>Price: ₱300</b></p>
+                    <button style="background-color: lightgreen;" onclick="addToCart()">Add to Cart</button>
+                    <button style="background-color: coral;" onclick="removeToCart()">Remove to Cart</button>
+                </td>
+                <td>
+                    <img src="src/img/The Winged Dragon of Ra.jpg" alt="The Winged Dragon of Ra" width="150"><br>
+                    <h4>The Winged Dragon of Ra</h4>
+                    <p><b>Price: ₱350</b></p>
+                    <button style="background-color: lightgreen;" onclick="addToCart()">Add to Cart</button>
+                    <button style="background-color: coral;" onclick="removeToCart()">Remove to Cart</button>
+                </td>
+                <td>
+                    <img src="src/img/Black Luster Soldier.jpg" alt="Black Luster Soldier" width="150"><br>
+                    <h4>Black Luster Soldier</h4>
+                    <p><b>Price:₱220</b></p>
+                    <button style="background-color: lightgreen;" onclick="addToCart()">Add to Cart</button>
+                    <button style="background-color: coral;" onclick="removeToCart()">Remove to Cart</button>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <div class="chat-box">
+        <form>
+            <label for="message">Message</label><br>
+            <input type="text" id="message" name="message" placeholder="Enter your message...">
+            <input type="submit" value="Send">
+        </form>
+    </div>
+
+</body>
+
+</html>
